@@ -11,13 +11,14 @@ namespace Nancy
     {
         public UserModule()
         {
-            Get["/user"] = param =>
+            Get["/user"] = _ =>
                 {
-                    return new User();
-                }
+                    return new UserModel() { FirstName = "Jamie", LastName = "Snell" };
+                };
         }
     }
-    public class User
+
+    public class UserModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
