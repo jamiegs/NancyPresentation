@@ -1,6 +1,7 @@
-﻿
+﻿@Master['MasterPage']
 
 @Section['Content']
-   <p>@!Model.FirstName</p>
-   <p>@!Model.LastName</p>
+   <p>Id: @!Model.Id</p>
+   <p>First Name: @!Model.FirstName</p>
+   <p>Last Name: @!Model.LastName</p>
 @EndSection

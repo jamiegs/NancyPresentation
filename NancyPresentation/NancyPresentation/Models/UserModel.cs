@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NancyPresentation.Models
+﻿namespace NancyPresentation.Models
 {
-    class UserModel
+    public class UserModel
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

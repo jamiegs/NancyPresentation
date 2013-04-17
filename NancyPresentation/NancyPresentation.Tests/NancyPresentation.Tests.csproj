@@ -59,17 +59,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="TestBootStrapper.cs" />
+    <Compile Include="UserUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\NancyPresentation\NancyPresentation.csproj">
-      <Project>{f211e21a-5e7b-4594-86fa-368d898dcc18}</Project>
+      <Project>{F211E21A-5E7B-4594-86FA-368D898DCC18}</Project>
       <Name>NancyPresentation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

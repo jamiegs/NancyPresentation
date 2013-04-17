@@ -1,10 +1,5 @@
 ﻿using Nancy;
 using Nancy.Diagnostics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NancyPresentation
 {
@@ -12,6 +7,7 @@ namespace NancyPresentation
     {
         protected override DiagnosticsConfiguration DiagnosticsConfiguration
         {
+            // This just configures the password for the http://localhost":12345/_nancy page
             get { return new DiagnosticsConfiguration { Password = @"12345" }; }
         }
     }

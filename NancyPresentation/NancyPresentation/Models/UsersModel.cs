@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace NancyPresentation.Models
 {
-    class UsersModel : List<UserModel>
-    {
-
-    }
+    public class UsersModel : List<UserModel>
+    {}
 }

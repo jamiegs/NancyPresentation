@@ -1,4 +1,9 @@
-﻿@Section['Content']
-   <p>@!Model.FirstName</p>
-   <p>@!Model.LastName</p>
+﻿@Master['MasterPage']
+
+@Section['Content']
+<ul>
+@Each
+   <li><a href="/users/@Current.Id">@!Current.FirstName @!Current.LastName</a></li>
+@EndEach
+</ul>
 @EndSection

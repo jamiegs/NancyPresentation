@@ -1,0 +1,15 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Nancy Demo</title>
+	<link rel="stylesheet" href="/content/nancy.css" />
+</head>
+<body>
+	<h1>@Context.Request.Path</h1>
+	@Section['Content']
+
+	<footer>
+		Super Simple View Engine 
+	</footer>
+</body>
+</html>

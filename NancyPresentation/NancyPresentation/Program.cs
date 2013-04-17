@@ -1,9 +1,5 @@
 ﻿using Nancy.Hosting.Self;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NancyPresentation
 {
@@ -17,6 +13,7 @@ namespace NancyPresentation
             host.Start(); // start hosting
 
             Console.ReadKey();
+
             host.Stop();  // stop hosting
         }
     }
