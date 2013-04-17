@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyPresentation", "NancyPresentation\NancyPresentation.csproj", "{F211E21A-5E7B-4594-86FA-368D898DCC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyPresentation.Tests", "NancyPresentation.Tests\NancyPresentation.Tests.csproj", "{62A9BA15-B2A5-4729-A0CA-50CF631EFCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F211E21A-5E7B-4594-86FA-368D898DCC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F211E21A-5E7B-4594-86FA-368D898DCC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F211E21A-5E7B-4594-86FA-368D898DCC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F211E21A-5E7B-4594-86FA-368D898DCC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A9BA15-B2A5-4729-A0CA-50CF631EFCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A9BA15-B2A5-4729-A0CA-50CF631EFCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A9BA15-B2A5-4729-A0CA-50CF631EFCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A9BA15-B2A5-4729-A0CA-50CF631EFCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
